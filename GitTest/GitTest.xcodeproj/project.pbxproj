@@ -15,6 +15,7 @@
 		C8E861161F9094B8001EA908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E861141F9094B8001EA908 /* LaunchScreen.storyboard */; };
 		C8E861211F9094B8001EA908 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E861201F9094B8001EA908 /* GitTestTests.m */; };
 		C8E8612C1F9094B8001EA908 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E8612B1F9094B8001EA908 /* GitTestUITests.m */; };
+		C8E8613B1F9095B8001EA908 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E8613A1F9095B8001EA908 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C8E861271F9094B8001EA908 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E8612B1F9094B8001EA908 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		C8E8612D1F9094B8001EA908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E861391F9095B8001EA908 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C8E8613A1F9095B8001EA908 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C8E8610A1F9094B8001EA908 /* AppDelegate.m */,
 				C8E8610C1F9094B8001EA908 /* ViewController.h */,
 				C8E8610D1F9094B8001EA908 /* ViewController.m */,
+				C8E861391F9095B8001EA908 /* Dog.h */,
+				C8E8613A1F9095B8001EA908 /* Dog.m */,
 				C8E8610F1F9094B8001EA908 /* Main.storyboard */,
 				C8E861121F9094B8001EA908 /* Assets.xcassets */,
 				C8E861141F9094B8001EA908 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				C8E8610E1F9094B8001EA908 /* ViewController.m in Sources */,
 				C8E8610B1F9094B8001EA908 /* AppDelegate.m in Sources */,
+				C8E8613B1F9095B8001EA908 /* Dog.m in Sources */,
 				C8E861081F9094B8001EA908 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Dog.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Dog *dog = [[Dog alloc]init];
+    [dog bark];
+    [dog run];
+    
+
 }
 
 

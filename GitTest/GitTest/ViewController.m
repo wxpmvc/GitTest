@@ -22,6 +22,11 @@
     [dog bark];
     [dog run];
     
+    
+    Dog *wangcai = [[Dog alloc]init];
+    [wangcai bark];
+    [wangcai run];
+    
 
 }
 

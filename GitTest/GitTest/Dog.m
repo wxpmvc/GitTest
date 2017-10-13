@@ -16,4 +16,8 @@
 }
 
 
+- (void)run {
+    NSLog(@"run");
+}
+
 @end

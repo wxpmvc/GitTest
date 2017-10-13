@@ -13,6 +13,6 @@
 @property (nonatomic, assign) float age;
 
 - (void)bark;
-
+- (void)run;
 
 @end
